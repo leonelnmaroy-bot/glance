@@ -1,0 +1,8 @@
+{
+	"key.category.glance.main": "Glance",
+	"key.glance.toggle": "Toggle info HUD",
+	"key.glance.corner": "Move info HUD to next corner",
+	"key.glance.menu": "Open Glance menu",
+	"message.glance.shown": "Glance HUD shown",
+	"message.glance.hidden": "Glance HUD hidden"
+}

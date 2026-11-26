@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "glance",
+	"version": "${version}",
+	"name": "Glance",
+	"description": "A directional sound detector (radar, crosshair ring and list) with a tabbed in-game menu, plus a small info HUD. Client-side only.",
+	"authors": [
+		"YOUR_NAME"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/glance",
+		"sources": "https://github.com/YOUR_NAME/glance"
+	},
+	"license": "MIT",
+	"icon": "assets/glance/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.glance.GlanceClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
